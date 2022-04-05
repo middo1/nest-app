@@ -9,16 +9,6 @@ export class TeacherController {
 
     @Get('/:teacherId')
     getTeacherbyId() {
-        return "gotten a student by id"
+        return "gotten a teacher by id"
     }
-
-    @Get('/:teacher/students')
-    getStudentForEachTeacher() {
-        return "students for each teacher"
-    }
-    @Put('/:teacher:students/:studentId')
-    updateStudentForEachTeacher() {
-        return "updated students per teacher"
-    }
-
 }

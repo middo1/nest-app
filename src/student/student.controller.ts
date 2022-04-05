@@ -8,4 +8,18 @@ export class StudentController {
         return "All students"
     }
 
+    @Get('/:studentId')
+    getStudent(){
+        return "getting student by ID"
+    }
+
+    @Post()
+    createStudent(){
+        return "student was created"
+    }
+
+    @Put('/:studentId')
+    editStudents(){
+        return "updated some things in student"
+    }
 }
